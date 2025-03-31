@@ -26,7 +26,7 @@ public class TiposVariaveis {
         String sobrenome = "Silva"; // 16 bits, 0 a 65.535 (2^16)
         String endereco = "Rua das Flores, 123"; // 16 bits, 0 a 65.535 (2^16)                                                                   
 
-        int salario1 = 2500.00;
+        float salario1 = 2500.00f;
 
         short numeroCurto = 1;
         int numeroNormal = numeroCurto;
@@ -38,5 +38,29 @@ public class TiposVariaveis {
 
         // Date dataAtual = new Date(); // Importar java.util.Date
         // System.out.println(dataAtual); // Imprime a data atual
+
+        // Concatenação de strings  
+        String nomeCompleto = nome + " " + sobrenome; // Concatena o nome e sobrenome
+        System.out.println("Nome completo: " + nomeCompleto); // Imprime o nome completo
+        System.out.println("Idade: " + idade); // Imprime a idade
+        System.out.println("Ano: " + ano); // Imprime o ano
+        System.out.println("Altura: " + altura); // Imprime a altura
+        System.out.println("Salário: " + salario); // Imprime o salário
+        System.out.println("CPF: " + cpf); // Imprime o CPF
+        System.out.println("CEP: " + cep); // Imprime o CEP
+        System.out.println("Endereço: " + endereco); // Imprime o endereço
+        System.out.println("Letra: " + letra); // Imprime a letra
+        System.out.println("Simbolo: " + simbolo); // Imprime o simbolo
+        System.out.println("Número: " + numero); // Imprime o número
+        System.out.println("Verdadeiro: " + verdadeiro); // Imprime o verdadeiro
+        System.out.println("Falso: " + falso); // Imprime o falso
+        System.out.println("Salário 1: " + salario1); // Imprime o salário 1
+        System.out.println("Número curto: " + numeroCurto); // Imprime o número curto
+        System.out.println("Número normal: " + numeroNormal); // Imprime o número normal
+        System.out.println("Número curto 2: " + numeroCurto2); // Imprime o número curto 2
+        System.out.println("PI: " + PI); // Imprime o PI
+        // System.out.println("Data atual: " + dataAtual); // Imprime a data atual
+        // System.out.println("Data atual: " + dataAtual.getTime()); // Imprime a data atual em milissegundos desde 1/1/1970    
+        // ...
     }
 }
